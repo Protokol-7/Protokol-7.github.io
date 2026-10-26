@@ -4,14 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Protokol-7 is a three-person cybersecurity research group. We work on CTF challenges, vulnerability research, reverse engineering, and defensive security, and publish our findings and writeups here.
+Protokol-7 is a three-person cybersecurity research group focused on digital forensics and incident response (DFIR), detection engineering, and malware analysis.
 
 ## What we write about
 
-- CTF writeups (binary exploitation, reversing, forensics, web, crypto)
-- Vulnerability research and disclosure notes
-- Tooling and methodology notes
+- DFIR case studies and investigation methodology
+- Detection engineering: rules, hunting queries, and coverage notes
+- Malware analysis: static/dynamic analysis, unpacking, behavioral breakdowns
+- Tooling and workflow notes for the above
 
-## Responsible disclosure
+## Handling of samples and case data
 
-Any research involving real-world software or services follows coordinated disclosure: we report to the vendor first and only publish after a fix is available or a mutually agreed timeline has passed.
+We don't publish live malware samples, client-identifying details, or IOCs tied to active, unresolved incidents. Analysis write-ups use sanitized or defanged indicators, and any case material is only published once it's safe to share.

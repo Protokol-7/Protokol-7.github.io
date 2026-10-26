@@ -26,10 +26,10 @@ Copy a file in [`_posts/`](_posts/) to `_posts/YYYY-MM-DD-short-title.md` and fi
 
 ```yaml
 ---
-title: "Challenge name or topic"
+title: "Case or topic title"
 date: 2026-01-01 00:00:00 +0000
-categories: [ctf]      # or [research], [tooling], etc.
-tags: [reversing, pwn] # whatever fits
+categories: [dfir]              # or [detection-engineering], [malware-analysis], [tooling]
+tags: [triage, windows-forensics] # whatever fits
 ---
 ```
 
@@ -49,5 +49,5 @@ Then open `http://localhost:4000`.
 ## Notes
 
 - `about.md` and `team.md` are top-level pages; add more by creating a `.md` file at the repo root with `layout: page` front matter.
-- Any research involving third-party software/services should follow the disclosure note in [`about.md`](about.md) before publishing.
-- Keep in-progress notes, raw CTF artifacts, and anything not meant to be public out of this repo — it's public once Pages is enabled on the free org plan.
+- Follow the sample/case-data handling note in [`about.md`](about.md) before publishing anything (sanitize IOCs, no client-identifying details, no live samples, no unresolved-incident data).
+- Keep in-progress notes, raw case artifacts, and anything not meant to be public out of this repo — it's public once Pages is enabled on the free org plan.
