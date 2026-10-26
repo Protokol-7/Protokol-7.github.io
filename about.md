@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Protocol7 is a three-person cybersecurity research group. We work on CTF challenges, vulnerability research, reverse engineering, and defensive security, and publish our findings and writeups here.
+Protokol-7 is a three-person cybersecurity research group. We work on CTF challenges, vulnerability research, reverse engineering, and defensive security, and publish our findings and writeups here.
 
 ## What we write about
 
