@@ -1,0 +1,35 @@
+title: Protocol7
+description: Cybersecurity research, CTF writeups, and security notes from a three-person research team.
+author: Protocol7
+url: "https://protocol7.github.io"
+baseurl: ""
+
+theme: minima
+minima:
+  skin: dark
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+header_pages:
+  - about.md
+  - team.md
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules

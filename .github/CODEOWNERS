@@ -1,0 +1,3 @@
+# Require any of the three owners to review changes to the whole repo.
+# TODO: replace with real GitHub usernames.
+* @github-handle-1 @github-handle-2 @github-handle-3
