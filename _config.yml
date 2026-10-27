@@ -5,8 +5,6 @@ url: "https://protokol-7.github.io"
 baseurl: ""
 
 theme: minima
-minima:
-  skin: dark
 
 plugins:
   - jekyll-feed

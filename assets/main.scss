@@ -1,0 +1,58 @@
+---
+---
+
+// Readability overrides for Minima 2.5.1 (the version GitHub Pages
+// actually builds with). Larger body text, tighter line length, and a
+// softened (not pure white-on-black) dark palette to reduce eye strain
+// on long technical reads. These must be set before `@import "minima"`
+// since Minima's own variables use `!default`.
+
+$base-font-size:   19px;
+$base-line-height: 1.65;
+$content-width:    720px;
+
+$text-color:       #cdd3d9; // ~12:1 contrast on $background-color
+$background-color: #121417;
+$brand-color:      #6cb6ff; // link color, ~8.5:1 contrast on $background-color
+
+$grey-color:       #9aa1a8; // meta text, blockquotes, footer
+$grey-color-light: #333942; // borders / dividers
+$grey-color-dark:  #eef1f4; // site title, mobile nav icon
+
+@import "minima";
+
+// Minima hardcodes the code/pre background instead of using a variable.
+pre,
+code {
+  background-color: #1b1e22;
+}
+
+// Minima's Rouge syntax-highlighting colors are hardcoded for a white
+// background (e.g. navy tags, dark teal, near-black diff text) and are
+// close to illegible on a dark code block. This swaps in equivalents
+// with real contrast against the dark background above — important for
+// a blog that posts logs, YARA rules, and code often.
+.highlight {
+  background-color: #1b1e22;
+  color: $text-color;
+
+  .highlighter-rouge & {
+    background-color: #1b1e22;
+  }
+
+  .c, .cm, .c1, .cs, .cp, .go, .gp, .nn, .bp { color: #9aa1a8 }      // comments / output / namespaces
+  .kt, .nc                                  { color: #7fd1ae; font-weight: bold } // types / classes
+  .m, .mf, .mh, .mi, .mo, .il               { color: #79c7e3 }      // numbers
+  .s, .sb, .sc, .sd, .s1, .s2, .se, .sh, .si, .sx { color: #e0b067 } // strings
+  .sr                                       { color: #5fd38a }      // regex
+  .ss                                       { color: #d68fd6 }      // symbols
+  .na, .no, .nv, .vc, .vg, .vi              { color: #5fd3bc }      // attributes / constants / variables
+  .nb                                       { color: #6cb6ff }      // builtins
+  .nt                                       { color: #e387b0 }      // tags
+  .ne, .nf                                  { color: #ff8585; font-weight: bold } // exceptions / functions
+  .gr, .gt                                  { color: #ff8585 }      // errors / tracebacks
+  .err                                      { color: #ff8585; background-color: #3a1f22 }
+  .gd, .gd .x                               { color: #ffb3b3; background-color: #3a1f22 } // diff removed
+  .gi, .gi .x                               { color: #a6e3a1; background-color: #1f3a22 } // diff added
+  .w                                        { color: #4a4f57 }      // whitespace
+}
