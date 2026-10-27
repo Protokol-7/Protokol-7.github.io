@@ -6,7 +6,7 @@ permalink: /team/
 
 Three founding members, all repo owners.
 
-<!-- TODO: fill in real names/handles and GitHub usernames -->
+Members:
 
 - **Mato Vlajčić** — [@cyberpanonius](https://github.com/cyberpanonius)
 - **Luka Bračun** — [@lbracun67](https://github.com/lbracun67)
