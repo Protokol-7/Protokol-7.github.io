@@ -21,6 +21,14 @@ $grey-color-dark:  #eef1f4; // site title, mobile nav icon
 
 @import "minima";
 
+// $grey-color-dark doubles as the site-header's top border color in
+// Minima, but we also repurpose it as a bright text color (site title,
+// mobile nav icon) for the dark theme above -- which turned that border
+// into a solid white bar. Keep it a subtle divider instead.
+.site-header {
+  border-top-color: $grey-color-light;
+}
+
 // Minima hardcodes the code/pre background instead of using a variable.
 pre,
 code {
