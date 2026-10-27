@@ -12,7 +12,5 @@ Protokol-7 is a three-person cybersecurity research group focused on digital for
 - Detection engineering: rules, hunting queries, and coverage notes
 - Malware analysis: static/dynamic analysis, unpacking, behavioral breakdowns
 - Tooling and workflow notes for the above
+- Focus is on novel research for the above  
 
-## Handling of samples and case data
-
-We don't publish live malware samples, client-identifying details, or IOCs tied to active, unresolved incidents. Analysis write-ups use sanitized or defanged indicators, and any case material is only published once it's safe to share.
