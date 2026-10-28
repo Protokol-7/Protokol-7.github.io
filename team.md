@@ -4,9 +4,7 @@ title: Team
 permalink: /team/
 ---
 
-Three founding members, all repo owners.
-
-Members:
+Research group, three members:
 
 - **Mato Vlajčić** — [@cyberpanonius](https://github.com/cyberpanonius)
 - **Luka Bračun** — [@lbracun67](https://github.com/lbracun67)
