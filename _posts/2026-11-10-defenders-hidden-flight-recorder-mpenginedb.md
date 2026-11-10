@@ -174,7 +174,8 @@ If you want to use the SQLECmd option, we created a PowerShell script that "prep
 Usage:
 
 ```
-.\Decrypt-MpEngineDb.ps1 -Path -OutDir D:\case\mpdb SQLECmd.exe -d D:\case\mpdb --csv D:\case\out
+.\Decrypt-MpEngineDb.ps1 -Path <Scans folder copy> -OutDir D:\case\mpdb
+SQLECmd.exe -d D:\case\mpdb --csv D:\case\out
 ```
 
 ![Decrypt-MpEngineDb.ps1 output after writing the decrypted database](/assets/images/defenders-hidden-flight-recorder-mpenginedb/16-decrypt-mpenginedb-script-run.png)
